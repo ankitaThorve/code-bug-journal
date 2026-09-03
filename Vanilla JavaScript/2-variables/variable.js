@@ -1,0 +1,39 @@
+// A variable is "named storage" for data.-------------
+
+let message;
+
+message = "Hello"; // store the string 'Hello' in the variable named message
+
+//window.alert(message); // show the variable content
+console.log(message);
+
+// Variable declaration and assignment into single line---------------
+let message1 = "Good Morning!"; // define the variable and assign the value
+console.log(message1); // Good Morning!
+
+// declare multiple variables in one line
+let user = "John",
+  age = 25,
+  msg = "Hie";
+
+// var instead of let--------------
+var message2 = "Evening!";
+
+// A real-life anology-----------
+let m1;
+m1 = "Hello!";
+m1 = "World!"; // value changed
+console.log(m1);
+
+// declare two variables and copy data from one into another
+let hello = "Hello Mike!";
+
+let m2;
+
+// copy 'Hello Mike!' from hello into m2
+m2 = hello;
+
+// Now two variables holds same data
+console.log(hello);
+console.log(m2);
+
