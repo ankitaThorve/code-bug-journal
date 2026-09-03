@@ -40,5 +40,25 @@ console.log(m2);
 // Declaring twice triggers an error
 let thing = "This";
 
-// repeated 'let' leads to an error 
+// repeated 'let' leads to an error
 // let thing = "That"; // SyntaxError: 'thing' has already been declared
+
+// Variable naming -------------
+// only letters, digits, and symbols $ and _
+let userName; // camelCase
+let myVeryLongName;
+let test123;
+
+// declaring variable names with symbols
+let $ = 2;
+let _ = 1;
+console.log($ + _);
+// console.log(`$ + _ = ${$ + _}`);
+
+// JS is case sensitive. Variables named apple and APPLE are two different variables---------------
+
+// Reserved names---------
+// let, class, return and function are reserved words
+// let let = 1;
+// let return = 5;
+
