@@ -37,3 +37,8 @@ m2 = hello;
 console.log(hello);
 console.log(m2);
 
+// Declaring twice triggers an error
+let thing = "This";
+
+// repeated 'let' leads to an error 
+// let thing = "That"; // SyntaxError: 'thing' has already been declared
