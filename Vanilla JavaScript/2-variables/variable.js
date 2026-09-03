@@ -62,3 +62,16 @@ console.log($ + _);
 // let let = 1;
 // let return = 5;
 
+// Constant (Unchanging variable)---------------
+const myBirthday = "21.11.1993";
+// myBirthday = "01.01.2001"; //TypeError: Assignment to constant variable.
+
+// UPPER CASE constants
+const COLOR_RED = "F00";
+const COLOR_GREEN = "0F0";
+const COLOR_BLUE = "00F";
+const COLOR_ORANGE = "FF7F00";
+
+// when we need to pick a color
+let color = COLOR_ORANGE;
+console.log(color);
