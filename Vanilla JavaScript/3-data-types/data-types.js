@@ -56,3 +56,12 @@ console.log(isGreater); // true (the comparison result is 'yes')
 // nothing, empty, value unknown
 let age = null; // age is unknown
 
+// The 'undefined' value ----------------
+// value is not assigned
+let user;
+console.log(user); // undefined
+
+let days = 25;
+// change the value to undefined
+days = undefined;
+console.log(days); // 'undefined'
