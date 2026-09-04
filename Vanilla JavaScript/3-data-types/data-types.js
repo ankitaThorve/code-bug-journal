@@ -40,3 +40,15 @@ console.log(`the result is ${1 + 2}`);
 
 // double quotes do nothing
 console.log("the result is ${1 + 2}");
+
+// Boolean (Logical type)-------------------------
+// true -> yes/correct
+// false -> no/incorrect
+
+let nameFieldChecked = true; // yes, name field is checked
+let ageFieldChecked = false; // no, age field is not checked
+
+// comparison
+let isGreater = 4 > 1;
+console.log(isGreater); // true (the comparison result is 'yes')
+
