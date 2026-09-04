@@ -65,3 +65,11 @@ let days = 25;
 // change the value to undefined
 days = undefined;
 console.log(days); // 'undefined'
+
+// Objects & Symbols--------------
+// Object - collection of datand more complex entities
+
+const man = { name: "Dan", age: 34 };
+
+// Symbols - are always unique identifiers for objects.
+const id = Symbol("id");
