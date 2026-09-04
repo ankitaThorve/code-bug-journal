@@ -73,3 +73,16 @@ const man = { name: "Dan", age: 34 };
 
 // Symbols - are always unique identifiers for objects.
 const id = Symbol("id");
+
+// The typeof operator----------------------
+// returns the type of operand
+
+console.log(typeof undefined);
+console.log(typeof 0);
+console.log(typeof 10n);
+console.log(typeof true);
+console.log(typeof "foo");
+console.log(typeof Symbol("id"));
+console.log(typeof Math);
+console.log(typeof null);
+console.log(typeof console);
