@@ -31,3 +31,11 @@ console.log(Number("  123   ")); // 123
 console.log(Number("123z")); // NaN
 console.log(Number(true)); // 1
 console.log(Number(false)); // 0
+
+// Boolean conversion -------------
+// Values that are intuitively "empty" like 0, an empty String, null, undefined nd NaN, becomes false. And All other becomes true.
+
+console.log(Boolean(1)); // true
+console.log(Boolean(0)); // false
+console.log(Boolean("hello")); // true
+console.log(Boolean("")); // false
