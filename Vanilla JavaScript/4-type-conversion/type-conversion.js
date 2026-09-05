@@ -39,3 +39,8 @@ console.log(Boolean(1)); // true
 console.log(Boolean(0)); // false
 console.log(Boolean("hello")); // true
 console.log(Boolean("")); // false
+
+// string with zero "0" is true
+console.log(Boolean("0")); // true
+console.log(Boolean(" ")); // true - space
+// any non-empty string is true
