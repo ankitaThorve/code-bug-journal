@@ -44,3 +44,24 @@ console.log("1" + 2 + 2); // "122", and not "14"
 // The binary + is the only operator that supports strings in such a way. Other arithmetic operators work only with numbers and always convert their operands to numbers
 console.log(6 - "2"); // 4, converts '2' to a number
 console.log("6" / "2"); // 3, converts both operands to numbers
+
+// Numeric conversion, unary + ------------------
+// No effect on numbers
+let o = 1;
+console.log(+o); // 1
+
+let p = -2;
+console.log(+p); // -2
+
+// Converts non-numbers
+console.log(+true); // 1
+console.log(+""); // 0
+
+let apples = "2";
+let oranges = "3";
+console.log(apples + oranges); // "23", the binary plus concatenates string
+
+// both values converted to numbers before the binary plus
+console.log(+apples + +oranges); // 5
+
+console.log(Number(apples) + Number(oranges)); // 5
