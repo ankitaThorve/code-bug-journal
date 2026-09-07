@@ -29,3 +29,18 @@ console.log(2 ** 4); //2⁴ = 16
 // Exponentiation ** for non-integer numbers----------
 console.log(4 ** (1 / 2)); // 2 (power of 1/2 is the same as a square root)
 console.log(8 ** (1 / 3)); // 2 (power of 1/3 is the same as a cubic root)
+
+// String concatenation with binary + -----------
+let s = "my" + "string";
+console.log(s); // mystring
+
+// if any of the operand is string, then the other one is converted to the string too
+console.log("1" + 2); // "12"
+console.log(2 + "1"); // "21"
+
+console.log(2 + 2 + "1"); // "41", and not "221"
+console.log("1" + 2 + 2); // "122", and not "14"
+
+// The binary + is the only operator that supports strings in such a way. Other arithmetic operators work only with numbers and always convert their operands to numbers
+console.log(6 - "2"); // 4, converts '2' to a number
+console.log("6" / "2"); // 3, converts both operands to numbers
