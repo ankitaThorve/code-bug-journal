@@ -157,10 +157,11 @@ console.log(count3++); // 0
 let p1 = 1;
 console.log(2 * ++p1); // 4
 
+// One line does multiple things - not good
 let p2 = 1;
 console.log(2 * p2++); // 2, because p2++ returns the 'old' value
 
-// One line does multiple things - not good
+// one line – one action
 let p3 = 1;
 console.log(2 * p3); // 2
 p3++;
