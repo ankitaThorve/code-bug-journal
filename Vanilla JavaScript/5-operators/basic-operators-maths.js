@@ -94,3 +94,11 @@ let c1 = 3 - (a1 = b1 + 1);
 
 console.log(a1); // 3
 console.log(c1); // 0
+
+// Chaining assignment ------------
+let e, f, g;
+e = f = g = 2 + 2;
+
+console.log(e); // 4
+console.log(f); // 4
+console.log(g); // 4
