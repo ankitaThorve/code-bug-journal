@@ -116,3 +116,40 @@ console.log(n);
 let q = 2;
 q *= 3 + 5; // right part evaluated fisrt (same as n *= 8)
 console.log(q); // 16
+
+// Increment/decrement-----------------------
+
+// Increment ++ increases a variable by 1
+let counter = 2;
+counter++; // works same as counter = counter + 1, but is shorter
+console.log(counter); // 3
+
+// Decrement -- decreases a variable by 1
+let count = 2;
+count--; // works same as count = count - 1, but is shorter
+console.log(count); // 1
+
+// prefix form
+let prefixCounter = 1;
+let pre = ++prefixCounter;
+console.log(`prefix counter: ${pre}`); // 2
+
+// postfix form
+let postfixCounter = 1;
+let post = postfixCounter++;
+console.log(`postfix counter: ${post}`); // 1
+
+// If the result of increment/decrement is not used, there is no difference in which form to use:
+let count1 = 0;
+count1++;
+++count1;
+console.log(count1); // 2
+
+// If we’d like to increase a value and immediately use the result of the operator, we need the prefix form:
+let count2 = 0;
+console.log(++count2); // 1
+
+// If we’d like to increment a value but use its previous value, we need the postfix form:
+let count3 = 0;
+console.log(count3++); // 0
+
