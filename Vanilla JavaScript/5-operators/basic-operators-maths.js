@@ -65,3 +65,19 @@ console.log(apples + oranges); // "23", the binary plus concatenates string
 console.log(+apples + +oranges); // 5
 
 console.log(Number(apples) + Number(oranges)); // 5
+
+// Operator precedence------------------
+
+/* Precedence	Name	Sign
+…	…	…
+14	unary plus	+
+14	unary negation	-
+13	exponentiation	**
+12	multiplication	*
+12	division	/
+11	addition	+
+11	subtraction	-
+…	…	…
+2	assignment	=
+…	…	…
+*/
