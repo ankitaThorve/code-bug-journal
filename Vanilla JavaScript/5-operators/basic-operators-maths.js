@@ -84,4 +84,13 @@ console.log(Number(apples) + Number(oranges)); // 5
 
 // Assignment ------------------
 let u = 3 * 2 + 1; // assign a variable 'u', the calculations are done first and then the '=' is evaluated, storing the reslt in 'u'
-console.log(u);
+console.log(u); // 5
+
+// Assignment = returns a value ------------------
+let a1 = 1;
+let b1 = 2;
+
+let c1 = 3 - (a1 = b1 + 1);
+
+console.log(a1); // 3
+console.log(c1); // 0
