@@ -105,3 +105,14 @@ e = g;
 console.log(e); // 4
 console.log(f); // 4
 console.log(g); // 4
+
+// Modify-in-place---------------
+let n = 2;
+n += 5; // now n = 7 (same as n = n + 5)
+n *= 2; // now n = 14 (same as n = n * 2)
+
+console.log(n);
+
+let q = 2;
+q *= 3 + 5; // right part evaluated fisrt (same as n *= 8)
+console.log(q); // 16
