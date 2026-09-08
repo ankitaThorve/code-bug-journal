@@ -97,7 +97,10 @@ console.log(c1); // 0
 
 // Chaining assignment ------------
 let e, f, g;
-e = f = g = 2 + 2;
+// e = f = g = 2 + 2;
+g = 2 + 2;
+f = g;
+e = g;
 
 console.log(e); // 4
 console.log(f); // 4
