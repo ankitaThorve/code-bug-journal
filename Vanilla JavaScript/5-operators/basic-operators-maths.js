@@ -153,3 +153,14 @@ console.log(++count2); // 1
 let count3 = 0;
 console.log(count3++); // 0
 
+// Increment-decrement among other operators - their precedence is higher that other operators
+let p1 = 1;
+console.log(2 * ++p1); // 4
+
+let p2 = 1;
+console.log(2 * p2++); // 2, because p2++ returns the 'old' value
+
+// One line does multiple things - not good
+let p3 = 1;
+console.log(2 * p3); // 2
+p3++;
