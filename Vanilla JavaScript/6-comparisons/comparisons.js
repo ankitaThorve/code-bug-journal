@@ -17,3 +17,12 @@ console.log(2 != 1); // true (correct)
 
 let result = 5 > 4;
 console.log(result); // true
+
+// String comparison -------------------
+// Too see whether a string is greater than another, JavaScript uses the so-called 'dictionary' or 'lexicographtcal' order
+
+console.log("Z" > "A"); // true
+console.log("Glow" > "Glee"); // true
+console.log("Bee" > "Be"); // true
+
+// Note: 'A' is not equal to 'a' | here 'a' is greater (lowercase)
