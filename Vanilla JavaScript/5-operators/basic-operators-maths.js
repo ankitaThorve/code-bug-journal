@@ -165,3 +165,18 @@ console.log(2 * p2++); // 2, because p2++ returns the 'old' value
 let p3 = 1;
 console.log(2 * p3); // 2
 p3++;
+
+// Bitwise operators ------------------
+// treat arguments as 32-bit integer numbers and work on the level of their binary representation
+
+/*
+The list of operators: 
+AND (&)
+OR (|)
+XOR (^)
+NOT (~)
+LEFT SHIFT(<<)
+RIGHT SHIFT(>>)
+ZERO-FILL RIGHT SHIFT (>>>)
+*/
+
