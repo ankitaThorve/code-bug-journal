@@ -180,3 +180,8 @@ RIGHT SHIFT(>>)
 ZERO-FILL RIGHT SHIFT (>>>)
 */
 
+// Comma operator ----------------------
+// Comma allows us to evaluate saveral expressions,dividing them with a comma ','. Each of them is evaluated but only the result of last one is returned.
+
+let d = (1+2, 3+4)
+console.log(d);
