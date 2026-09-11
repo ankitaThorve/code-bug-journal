@@ -48,3 +48,17 @@ let b = "0";
 console.log(Boolean(b)); // true
 
 console.log(a == b); // true
+
+// Strict equality ---------------------
+console.log(0 == false); // true
+
+console.log("" == false); // true
+
+// A strict equality operator === checks the equality without type conversion
+console.log(0 === false); // false, because the types are different
+
+// strict non-equality !== , !=
+console.log(0 !== false); // true
+
+console.log(0 != false); // false
+
