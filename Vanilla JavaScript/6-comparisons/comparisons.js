@@ -62,3 +62,9 @@ console.log(0 !== false); // true
 
 console.log(0 != false); // false
 
+// Comparison with null & undefined ------------------
+// There’s a non-intuitive behavior when null or undefined are compared to other values.
+console.log(null === undefined); // false, these values are different, because each of them is a different type
+
+console.log(null == undefined); // true, There’s a special rule. These two are a “sweet couple”: they equal each other (in the sense of ==), but not any other value
+
