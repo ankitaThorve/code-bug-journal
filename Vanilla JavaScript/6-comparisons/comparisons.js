@@ -68,3 +68,9 @@ console.log(null === undefined); // false, these values are different, because e
 
 console.log(null == undefined); // true, There’s a special rule. These two are a “sweet couple”: they equal each other (in the sense of ==), but not any other value
 
+// Strange result : null vs 0
+// an equality check == and comparisons > < >= <= work differently. Comparisons convert null to a number, treating it as 0. On the other hand, the equality check == for undefined and null is defined such that, without any conversions, they equal each other and don’t equal anything else.
+console.log(null > 0); // false
+console.log(null == 0); // false
+console.log(null >= 0); // true
+
