@@ -52,7 +52,28 @@ if (year < 2015) {
 // ternary operator '?'
 // syntax: let result = condition ? value1 : value2;
 
+let age = 34;
 let accessAllowed = age > 18 ? true : false;
 
 // Note : let accessAllowed = age > 18;
 
+// Multiple '?' ------------------------------------
+let message =
+  age < 3
+    ? "Hi baby!"
+    : age < 18
+      ? "Hello!"
+      : age < 100
+        ? "Greetings!"
+        : "What an unusual age!";
+console.log(message);
+
+if (age < 3) {
+  message = "Hi, baby";
+} else if (age < 18) {
+  message = "Hello";
+} else if (age < 100) {
+  message = "Greetings";
+} else {
+  message = "What an unusual age!";
+}
