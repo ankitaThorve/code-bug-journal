@@ -4,7 +4,7 @@
 
 // The "if" statement -----------------------
 // The if(...) statement evaluates a condition in parentheses and, if the result is true, executes a block of code.
-
+let year = 2015
 // wrap multiple code lines in curly braces
 if (year == 2015) {
   console.log("That's correct");
@@ -37,4 +37,13 @@ if (year == 2015) {
   console.log("You guessed it right!");
 } else {
   console.log("How can you be so wrong"); // any value except 2015
+}
+
+// Several conditions: 'else if' -----------------------
+if (year < 2015) {
+  console.log("Too early.....");
+} else if (year > 2015) {
+  console.log("Too late......");
+} else {
+  console.log("Exactly!");
 }
