@@ -29,3 +29,12 @@ let cond = year == 2015;
 if (cond) {
   // ...
 }
+
+// The "else" clause ---------------------
+// The if statement may contain an optional else block. It executes when the condition is falsy.
+
+if (year == 2015) {
+  console.log("You guessed it right!");
+} else {
+  console.log("How can you be so wrong"); // any value except 2015
+}
