@@ -4,7 +4,7 @@
 
 // The "if" statement -----------------------
 // The if(...) statement evaluates a condition in parentheses and, if the result is true, executes a block of code.
-let year = 2015
+let year = 2015;
 // wrap multiple code lines in curly braces
 if (year == 2015) {
   console.log("That's correct");
@@ -47,3 +47,12 @@ if (year < 2015) {
 } else {
   console.log("Exactly!");
 }
+
+// Conditional operator '?' -----------------------------
+// ternary operator '?'
+// syntax: let result = condition ? value1 : value2;
+
+let accessAllowed = age > 18 ? true : false;
+
+// Note : let accessAllowed = age > 18;
+
