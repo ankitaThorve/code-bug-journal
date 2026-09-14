@@ -77,3 +77,7 @@ if (age < 3) {
 } else {
   message = "What an unusual age!";
 }
+
+// Non-traditional use of '?' --------------------------------
+// ? instead of if
+company == "Netscape" ? alert("Right") : alert("Wrong");
