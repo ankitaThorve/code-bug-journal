@@ -52,7 +52,7 @@ if (year < 2015) {
 // ternary operator '?'
 // syntax: let result = condition ? value1 : value2;
 
-let age = 34;
+let age = 104;
 let accessAllowed = age > 18 ? true : false;
 
 // Note : let accessAllowed = age > 18;
