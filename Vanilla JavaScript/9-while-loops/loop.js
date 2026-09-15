@@ -1,8 +1,16 @@
 // Breaking the loop -----------------------
-let sum = 0;
-while (true) {
-  let value = +prompt("Enetr a number:", "");
-  if (!value) break;
-  sum += value;
+// let sum = 0;
+// while (true) {
+// let value = +prompt("Enter a number:", "");
+//   if (!value) break;
+//   sum += value;
+// }
+// alert("Sum : " + sum);
+
+// Continue to the next iteration ---------------------------
+for (let i = 0; i < 10; i++) {
+  // if true, skip the remaining part of body
+  if (i % 2 == 0) continue;
+  console.log(i); // 1, then 3,5,7,9
 }
-alert("Sum : " + sum);
+
