@@ -13,6 +13,17 @@ while (a < 3) {
   a++;
 }
 
+// shorter way to write while(b ! = 0) is while (b)
+let b = 3;
+while (b) {
+  console.log(`b : ${b}`);
+  b--;
+}
+
+// Curly braces are not required for a single-line body
+let c = 3;
+while (c) console.log(c--);
+
 // The 'for' loop ------------------
 /*
 syntax : 
