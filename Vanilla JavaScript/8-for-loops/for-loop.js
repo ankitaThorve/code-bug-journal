@@ -1,3 +1,18 @@
+// The 'while' loop --------------------
+/*
+syntax : 
+while(condition){
+  // code
+  // so-called 'loop body'
+}
+*/
+
+let a = 0;
+while (a < 3) {
+  console.log(a); // shows 0, then 1, then 2
+  a++;
+}
+
 // The 'for' loop ------------------
 /*
 syntax : 
